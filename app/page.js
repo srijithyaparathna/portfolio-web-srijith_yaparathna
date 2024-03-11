@@ -2,6 +2,9 @@ import Image from "next/image";
 import HeroSection from "./components/HeroSection";
 import { Container } from "postcss";
 import Navbar from "./components/Navbar";
+import AboutSection from "./components/AboutSection";
+import ProjectSelection from  "./components/ProjectsSelection"
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#121212]  " >
@@ -9,7 +12,8 @@ export default function Home() {
      <div className = "container mt-24 px-12 py-4 " >      
       
       <HeroSection />
-        
+      <AboutSection /> 
+      <ProjectSelection /> 
      </div>
 
         
